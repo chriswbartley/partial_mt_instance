@@ -41,8 +41,7 @@ class PartialInstanceBinaryClassifier(object):
        If 'joint' a single cone plane is calculated including all features,
        if 'separate' a separate cone is calculated for each monotone feature.
 
-    References
-    ----------
+References
 
     .. [1] C. Bartley, "High Accuracy Partially Monotone Ordinal 
         Classification", UWA 2019 Chapter 7
