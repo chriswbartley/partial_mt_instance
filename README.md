@@ -2,14 +2,16 @@
 Cone based partially monotone instance classification and relabelling.
 
 PartialInstanceBinaryClassifier() can be used to:
+
      - construct a binary classifier (using sklearn nomenclature), or
+     
      - perform partially monotone relabelling of a dataset,using 
        clf =PartialInstanceBinaryClassifier(relabel=True,mt_feat_types=_) 
        then clf.fit(X,y) and then accessing clf.y_relabelled
 
 
-class PartialInstanceBinaryClassifier(object):
-    """A partially monotone instance based classifier (and relabelling algorithm).
+"""class PartialInstanceBinaryClassifier(object):
+    A partially monotone instance based classifier (and relabelling algorithm).
     
     The algorithms are descibed in my PhD thesis 'High Accuracy Partially 
     Monotone Ordinal Classification, UWA 2019' Chapter 7.
