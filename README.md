@@ -10,7 +10,8 @@ PartialInstanceBinaryClassifier() can be used to:
        then clf.fit(X,y) and then accessing clf.y_relabelled
 
 
-"""class PartialInstanceBinaryClassifier(object):
+    class PartialInstanceBinaryClassifier(object):
+
     A partially monotone instance based classifier (and relabelling algorithm).
     
     The algorithms are descibed in my PhD thesis 'High Accuracy Partially 
