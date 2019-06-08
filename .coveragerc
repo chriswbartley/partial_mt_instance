@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = partial_mt_instance/*
+include = partial_mt_instance/*
+omit = */setup.py
+[report]
+include = partial_mt_instance/*
