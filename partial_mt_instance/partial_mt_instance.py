@@ -42,14 +42,6 @@ class PartialInstanceBinaryClassifier(object):
     
     The algorithms are descibed in my PhD thesis 'High Accuracy Partially 
     Monotone Ordinal Classification, UWA 2019' Chapter 7.
-
-mt_feat_types,
-                 fit_type='linear' , # 'none' or 'linear'
-                 relabel=False,
-                 local_mt_filter='none', #'none' or 'remove' or 'relabel'
-                 local_mt_filter_k=3,
-                 scale_X='yes',
-                 nmt_plane_type
                  
     Parameters
     ----------
